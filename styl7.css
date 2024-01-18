@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+	
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+section {
+    margin: 10px;
+}
+ 
+#baner, footer {
+    background-color: rgb(70, 130, 180);
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+ 
+#główny {
+    background-color: rgb(176, 196, 222);
+    padding: 50px;
+    text-align: center;
+}
+ 
+#kontener {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#lewY {
+    background-color: rgb(70, 130, 180);
+    color: #fff;
+    height: 300px;
+    width: 80%;
+}
+ 
+#prawy {
+    background-color: rgb(70, 130, 180);
+    color: #fff;
+    height: 300px;
+    width: 20%;
+}
+ 
+.zdjecie-glowne {
+    margin: 3px;
+    border: 1px dashed blue;
+    border-radius: 10px;
+}
+ 
+.miniatura {
+    height: 40%;
+}
+ 
+.miniatura:hover {
+    border: 1px solid #fff;
+}
+
+ma menu kontekstowe
